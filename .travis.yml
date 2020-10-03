@@ -2,11 +2,11 @@ language: node_js
 node_js:
     - 14
 
-before_script:
+install:
     - npm install -g gatsby-cli npm-check-updates
     - npm install
 
-install:
+script:
     - node --experimental-json-modules src/scripts/calc.js
     - npm run build
 

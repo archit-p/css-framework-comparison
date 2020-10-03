@@ -3,7 +3,6 @@
   "description": "A filesize comparison of popular CSS frameworks",
   "version": "0.1.0",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
