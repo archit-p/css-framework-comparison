@@ -7,7 +7,7 @@ install:
     - npm install
 
 script:
-    - node --experimental-json-modules src/scripts/calc.js
+    - node --experimental-json-modules src/scripts/calc.mjs
     - npm run build
 
 deploy:
