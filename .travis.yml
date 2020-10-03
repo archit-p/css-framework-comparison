@@ -4,6 +4,7 @@ node_js:
 
 before_script:
     - npm install -g gatsby-cli npm-check-updates
+    - npm install
 
 install:
     - node --experimental-json-modules src/scripts/calc.js
