@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Bootstrap",
+    "standardFile": "bootstrap/dist/css/bootstrap.css",
+    "minifiedFile": "bootstrap/dist/css/bootstrap.min.css"
+  },
+  {
+    "name": "Bulma",
+    "standardFile": "bulma/css/bulma.css",
+    "minifiedFile": "bulma/css/bulma.min.css"
+  },
+  {
+    "name": "Tailwind",
+    "standardFile": "tailwindcss/dist/tailwind.css",
+    "minifiedFile": "tailwindcss/dist/tailwind.min.css"
+  },
+  {
+    "name": "Materialize",
+    "standardFile": "materialize-css/dist/css/materialize.css",
+    "minifiedFile": "materialize-css/dist/css/materialize.min.css"
+  },
+  {
+    "name": "Pure CSS",
+    "standardFile": "purecss/build/pure.css",
+    "minifiedFile": "purecss/build/pure-min.css"
+  },
+  {
+    "name": "UIKit",
+    "standardFile": "uikit/dist/css/uikit.css",
+    "minifiedFile": "uikit/dist/css/uikit.min.css"
+  },
+  {
+    "name": "Tachyons",
+    "standardFile": "tachyons/css/tachyons.css",
+    "minifiedFile": "tachyons/css/tachyons.min.css"
+  },
+  {
+    "name": "Foundation",
+    "standardFile": "foundation-sites/dist/css/foundation.css",
+    "minifiedFile": "foundation-sites/dist/css/foundation.min.css"
+  },
+  {
+    "name": "Milligram",
+    "standardFile": "milligram/dist/milligram.css",
+    "minifiedFile": "milligram/dist/milligram.min.css"
+  }
+]

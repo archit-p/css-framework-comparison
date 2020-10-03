@@ -1,0 +1,14 @@
+language: node_js
+before_script:
+    - npm install -g gatsby-cli npm-check-updates
+
+install:
+    - node --experimental-json-modules src/scripts/calc.js
+    - npm run build
+
+deploy:
+    provider: script
+    script: npm install && npm run deploy
+    skip_cleanup: true
+    on:
+      branch: master
