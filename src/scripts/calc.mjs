@@ -25,8 +25,8 @@ fs.mkdir(tmpDir, err => {
 
 config.default.map(entry => {
   const gzippedFile = tmpDir + "/" + entry.name.replace(" ", "-") + ".gz";
-  const standardFile = nodeModules + "/" + entry.standardFile;
-  const minifiedFile = nodeModules + "/" + entry.minifiedFile;
+  const standardFile = nodeModules + entry.standardFile;
+  const minifiedFile = nodeModules + entry.minifiedFile;
 
   if (shell.exec("gzip -c " + minifiedFile + " > " + gzippedFile).code !== 0) {
     console.log("Failed to gzip file", gzippedFile);
@@ -35,6 +35,7 @@ config.default.map(entry => {
 
   const result = {
     name: entry.name,
+    repoURL: entry.repoURL,
     standardSize: fs.statSync(standardFile).size / 1000.0,
     minifiedSize: fs.statSync(minifiedFile).size / 1000.0,
     gzippedSize: fs.statSync(gzippedFile).size / 1000.0,

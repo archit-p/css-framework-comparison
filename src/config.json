@@ -1,47 +1,56 @@
 [
   {
     "name": "Bootstrap",
-    "standardFile": "bootstrap/dist/css/bootstrap.css",
-    "minifiedFile": "bootstrap/dist/css/bootstrap.min.css"
+    "standardFile": "/bootstrap/dist/css/bootstrap.css",
+    "minifiedFile": "/bootstrap/dist/css/bootstrap.min.css",
+    "repoURL": "/twbs/bootstrap"
   },
   {
     "name": "Bulma",
-    "standardFile": "bulma/css/bulma.css",
-    "minifiedFile": "bulma/css/bulma.min.css"
+    "standardFile": "/bulma/css/bulma.css",
+    "minifiedFile": "/bulma/css/bulma.min.css",
+    "repoURL": "/jgthms/bulma"
   },
   {
     "name": "Tailwind",
-    "standardFile": "tailwindcss/dist/tailwind.css",
-    "minifiedFile": "tailwindcss/dist/tailwind.min.css"
+    "standardFile": "/tailwindcss/dist/tailwind.css",
+    "minifiedFile": "/tailwindcss/dist/tailwind.min.css",
+    "repoURL": "/tailwindlabs/tailwindcss"
   },
   {
     "name": "Materialize",
-    "standardFile": "materialize-css/dist/css/materialize.css",
-    "minifiedFile": "materialize-css/dist/css/materialize.min.css"
+    "standardFile": "/materialize-css/dist/css/materialize.css",
+    "minifiedFile": "/materialize-css/dist/css/materialize.min.css",
+    "repoURL": "/Dogfalo/materialize"
   },
   {
     "name": "Pure CSS",
-    "standardFile": "purecss/build/pure.css",
-    "minifiedFile": "purecss/build/pure-min.css"
+    "standardFile": "/purecss/build/pure.css",
+    "minifiedFile": "/purecss/build/pure-min.css",
+    "repoURL": "/pure-css/pure"
   },
   {
     "name": "UIKit",
-    "standardFile": "uikit/dist/css/uikit.css",
-    "minifiedFile": "uikit/dist/css/uikit.min.css"
+    "standardFile": "/uikit/dist/css/uikit.css",
+    "minifiedFile": "/uikit/dist/css/uikit.min.css",
+    "repoURL": "/uikit/uikit"
   },
   {
     "name": "Tachyons",
-    "standardFile": "tachyons/css/tachyons.css",
-    "minifiedFile": "tachyons/css/tachyons.min.css"
+    "standardFile": "/tachyons/css/tachyons.css",
+    "minifiedFile": "/tachyons/css/tachyons.min.css",
+    "repoURL": "/tachyons-css/tachyons"
   },
   {
     "name": "Foundation",
-    "standardFile": "foundation-sites/dist/css/foundation.css",
-    "minifiedFile": "foundation-sites/dist/css/foundation.min.css"
+    "standardFile": "/foundation-sites/dist/css/foundation.css",
+    "minifiedFile": "/foundation-sites/dist/css/foundation.min.css",
+    "repoURL": "/foundation/foundation-sites"
   },
   {
     "name": "Milligram",
-    "standardFile": "milligram/dist/milligram.css",
-    "minifiedFile": "milligram/dist/milligram.min.css"
+    "standardFile": "/milligram/dist/milligram.css",
+    "minifiedFile": "/milligram/dist/milligram.min.css",
+    "repoURL": "/milligram/milligram"
   }
 ]
