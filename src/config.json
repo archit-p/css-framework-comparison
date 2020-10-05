@@ -52,5 +52,11 @@
     "standardFile": "/milligram/dist/milligram.css",
     "minifiedFile": "/milligram/dist/milligram.min.css",
     "repoURL": "/milligram/milligram"
+  },
+  {
+    "name": "Flexbox Grid",
+    "standardFile": "/flexboxgrid/css/index.css",
+    "minifiedFile": "/flexboxgrid/css/index.min.css",
+    "repoURL": "/kristoferjoseph/flexboxgrid"
   }
 ]
